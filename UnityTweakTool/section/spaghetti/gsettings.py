@@ -108,7 +108,7 @@ sound = canonical('indicator.sound')
 
 antialiasing = gnome('settings-daemon.plugins.xsettings')
 background = gnome('desktop.background')
-desktop = gnome('nautilus.desktop')
+desktop = dynamic.desktop_schema
 interface = gnome('desktop.interface')
 lockdown = gnome('desktop.lockdown')
 wm = gnome('desktop.wm.preferences')
